@@ -1,0 +1,37 @@
+body{
+	/*background: #232323;*/
+	}
+
+.simple-player-container {
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+	height:17px;
+}
+.simple-player-container > div > ul {
+    margin: 0;
+    padding-left: 0;
+}
+.simpleplayer-play-control {
+    background-image: url('http://www.geocities.jp/mutucomic/t1/images/play.svg');
+    display: block;
+    width: 16px;
+    height: 16px;
+    bottom: -3px;
+    position: relative;
+}
+.simpleplayer-play-control:hover {
+   /* background-image: url('http://www.geocities.jp/mutucomic/t1/images/play.svg');*/
+}
+.simpleplayer-stop-control {
+    background-image: url('http://www.geocities.jp/mutucomic/t1/images/pause.svg');
+    display: block;
+    width: 16px;
+    height: 16px;
+    bottom: -3px;
+    position: relative;
+}
+.simpleplayer-stop-control:hover {
+    /*background-image: url('http://www.geocities.jp/mutucomic/t1/images/pause.svg');*/
+}
